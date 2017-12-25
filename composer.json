@@ -1,5 +1,30 @@
 {
+    "name": "parvezmrobin/csv",
+    "type": "library",
+    "description": "CSV component",
+    "keywords": [],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Parvez M Robin",
+            "email": "parvezmrobin@gmail.com"
+        }
+    ],
     "require": {
+        "php": "^7.0.1",
         "symfony/filesystem": "^3.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Csv\\": "Csv"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.5"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Test\\": "tests/"
+        }
     }
 }
