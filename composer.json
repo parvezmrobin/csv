@@ -2,6 +2,7 @@
     "name": "parvezmrobin/csv",
     "type": "library",
     "description": "CSV component",
+    "version": "0.0.1",
     "keywords": [],
     "license": "MIT",
     "authors": [
@@ -11,8 +12,7 @@
         }
     ],
     "require": {
-        "php": "^7.0.1",
-        "symfony/filesystem": "^3.4"
+        "php": "^7.0.1"
     },
     "autoload": {
         "psr-4": {
